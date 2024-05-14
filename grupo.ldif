@@ -1,0 +1,52 @@
+dn: cn=Sistemas,ou=Sistemas,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1001
+cn: Sistemas
+
+dn: cn=Soporte,ou=Soporte,ou=Sistemas,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1002
+cn: Soporte
+
+dn: cn=Academia,ou=Academia,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1003
+cn: Academia
+dn: cn=Coordinacion,ou=Coordinacion,ou=Academia,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1004
+cn: Coordinacion
+
+dn: cn=Estudiantes,ou=Estudiantes,ou=Academia,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1005
+cn: Estudiantes
+
+dn: cn=Profesores,ou=Profesores,ou=Academia,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1006
+cn: Profesores
+
+dn: cn=Administracion,ou=Administracion,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1007
+cn: Administracion
+
+dn: cn=Secretaria,ou=Secretaria,ou=Administracion,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1008
+cn: Secretaria
+
+dn: cn=Tesoreria,ou=Tesoreria,ou=Administracion,dc=marp,dc=cole
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1009
+cn: Tesoreria

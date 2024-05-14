@@ -1,0 +1,4 @@
+dn: dc=marp,dc=cole
+objectClass: dcObject
+objectClass: organization
+o: marp

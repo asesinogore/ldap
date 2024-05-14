@@ -1,0 +1,44 @@
+dn: ou=Sistemas,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Sistemas
+
+dn: ou=Soporte,ou=Sistemas,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Soporte
+
+dn: ou=Academia,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Academia
+
+dn: ou=Coordinacion,ou=Academia,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Coordinacion
+
+dn: ou=Estudiantes,ou=Academia,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Estudiantes
+
+dn: ou=Profesores,ou=Academia,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Profesores
+
+dn: ou=Administracion,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Administracion
+
+dn: ou=Secretaria,ou=Administracion,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Secretaria
+
+dn: ou=Tesoreria,ou=Administracion,dc=marp,dc=cole
+objectClass: top
+objectClass: organizationalUnit
+ou: Tesoreria
